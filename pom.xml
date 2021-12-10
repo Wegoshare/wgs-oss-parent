@@ -10,7 +10,7 @@
 
   <groupId>com.wegoshare</groupId>
   <artifactId>oss-parent</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.3</version>
   <packaging>pom</packaging>
 
   <name>Wegoshare OSS Parent</name>
@@ -46,7 +46,7 @@
     <!-- Maven & Java -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <!-- Java versions -->
-    <java.version>1.8</java.version>
+    <java.version>11</java.version>
     <!-- Testing versions -->
     <testng.version>6.8.13</testng.version>
     <!-- Logging -->
@@ -55,11 +55,11 @@
     <osgi.version>5.0.0</osgi.version>
     <!-- Misc -->
     <json.version>20140107</json.version>
-    <jackson.version>2.9.9.2</jackson.version>
+    <jackson.version>2.13.0-rc2</jackson.version>
     <!-- Plug-ins -->
     <license.plugin.version>2.6</license.plugin.version>
     <bundle-plugin.version>2.4.0</bundle-plugin.version>
-    <maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
+    <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
     <maven-resources-plugin.version>2.6</maven-resources-plugin.version>
   </properties>
 
